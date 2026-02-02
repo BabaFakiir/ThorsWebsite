@@ -1,18 +1,1021 @@
-[00:00:02.040] Server  LOG     
-[00:00:02.040] Server  LOG        We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
-[00:00:02.040] Server  LOG        The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
-
-[00:00:02.041] Server  LOG        	- include was updated to add '.next/dev/types/**/*.ts'
-[00:00:02.041] Server  LOG     
-[00:00:02.041] Server  LOG        The following mandatory changes were made to your tsconfig.json:
-
-[00:00:02.041] Server  LOG        	- jsx was set to react-jsx (next.js uses the React automatic runtime)
-[00:00:02.041] Server  LOG     
-[00:00:02.134] Server  LOG      ✓ Ready in 1833ms
-[00:00:17.641] Server  LOG      ○ Compiling / ...
-[00:00:19.714] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+[00:00:01.302] Server  LOG      ✓ Ready in 855ms
+[00:00:23.343] Server  LOG      ○ Compiling / ...
+[00:00:24.359] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:00:20.506] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:21.264] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:21.264] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:21.264] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770034672500}
+[00:00:25.195] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:26.064] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:26.064] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:26.064] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770035769621}
+[00:01:41.590] Server  LOG      ✓ Compiled in 154ms
+[00:01:59.215] Server  LOG      ✓ Compiled in 73ms
+[00:04:52.861] Server  LOG      ✓ Compiled in 370ms
+[00:07:11.546] Server  LOG      ✓ Compiled in 62ms
+[00:07:32.107] Server  LOG      ✓ Compiled in 57ms
+[00:08:22.812] Server  LOG      ✓ Compiled in 64ms
+[00:11:10.065] Server  ERROR    ⨯ ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx:2:1
+Module not found: Can't resolve '@/public/AndroidInfotainmentSystem.jpeg'
+  1 | 'use client';
+> 2 | import AndroidInfotainmentSystem from '@/public/AndroidInfotainmentSystem.jpeg';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | import { useState } from 'react';
+  5 | import { ChevronLeft, ChevronRight } from 'lucide-react';
+
+Import map: aliased to relative './public/AndroidInfotainmentSystem.jpeg' inside of [project]/Desktop/ThorsWebsite
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:10.068] Server  ERROR    ⨯ ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx:2:1
+Module not found: Can't resolve '@/public/AndroidInfotainmentSystem.jpeg'
+  1 | 'use client';
+> 2 | import AndroidInfotainmentSystem from '@/public/AndroidInfotainmentSystem.jpeg';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | import { useState } from 'react';
+  5 | import { ChevronLeft, ChevronRight } from 'lucide-react';
+
+Import map: aliased to relative './public/AndroidInfotainmentSystem.jpeg' inside of [project]/Desktop/ThorsWebsite
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:10.070] Server  ERROR    ⨯ ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx:2:1
+Module not found: Can't resolve '@/public/AndroidInfotainmentSystem.jpeg'
+  1 | 'use client';
+> 2 | import AndroidInfotainmentSystem from '@/public/AndroidInfotainmentSystem.jpeg';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | import { useState } from 'react';
+  5 | import { ChevronLeft, ChevronRight } from 'lucide-react';
+
+Import map: aliased to relative './public/AndroidInfotainmentSystem.jpeg' inside of [project]/Desktop/ThorsWebsite
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:10.073] Server  ERROR    ⨯ ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx:2:1
+Module not found: Can't resolve '@/public/AndroidInfotainmentSystem.jpeg'
+  1 | 'use client';
+> 2 | import AndroidInfotainmentSystem from '@/public/AndroidInfotainmentSystem.jpeg';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | import { useState } from 'react';
+  5 | import { ChevronLeft, ChevronRight } from 'lucide-react';
+
+Import map: aliased to relative './public/AndroidInfotainmentSystem.jpeg' inside of [project]/Desktop/ThorsWebsite
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:10.077] Server  ERROR    ⨯ ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx:2:1
+Module not found: Can't resolve '@/public/AndroidInfotainmentSystem.jpeg'
+  1 | 'use client';
+> 2 | import AndroidInfotainmentSystem from '@/public/AndroidInfotainmentSystem.jpeg';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | import { useState } from 'react';
+  5 | import { ChevronLeft, ChevronRight } from 'lucide-react';
+
+Import map: aliased to relative './public/AndroidInfotainmentSystem.jpeg' inside of [project]/Desktop/ThorsWebsite
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:10.079] Server  ERROR    ⨯ ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx:2:1
+Module not found: Can't resolve '@/public/AndroidInfotainmentSystem.jpeg'
+  1 | 'use client';
+> 2 | import AndroidInfotainmentSystem from '@/public/AndroidInfotainmentSystem.jpeg';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | import { useState } from 'react';
+  5 | import { ChevronLeft, ChevronRight } from 'lucide-react';
+
+Import map: aliased to relative './public/AndroidInfotainmentSystem.jpeg' inside of [project]/Desktop/ThorsWebsite
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:10.080] Server  ERROR    ⨯ ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx:2:1
+Module not found: Can't resolve '@/public/AndroidInfotainmentSystem.jpeg'
+  1 | 'use client';
+> 2 | import AndroidInfotainmentSystem from '@/public/AndroidInfotainmentSystem.jpeg';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | import { useState } from 'react';
+  5 | import { ChevronLeft, ChevronRight } from 'lucide-react';
+
+Import map: aliased to relative './public/AndroidInfotainmentSystem.jpeg' inside of [project]/Desktop/ThorsWebsite
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:10.081] Server  ERROR    ⨯ ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx:2:1
+Module not found: Can't resolve '@/public/AndroidInfotainmentSystem.jpeg'
+  1 | 'use client';
+> 2 | import AndroidInfotainmentSystem from '@/public/AndroidInfotainmentSystem.jpeg';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | import { useState } from 'react';
+  5 | import { ChevronLeft, ChevronRight } from 'lucide-react';
+
+Import map: aliased to relative './public/AndroidInfotainmentSystem.jpeg' inside of [project]/Desktop/ThorsWebsite
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:10.083] Server  ERROR    ⨯ ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx:2:1
+Module not found: Can't resolve '@/public/AndroidInfotainmentSystem.jpeg'
+  1 | 'use client';
+> 2 | import AndroidInfotainmentSystem from '@/public/AndroidInfotainmentSystem.jpeg';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | import { useState } from 'react';
+  5 | import { ChevronLeft, ChevronRight } from 'lucide-react';
+
+Import map: aliased to relative './public/AndroidInfotainmentSystem.jpeg' inside of [project]/Desktop/ThorsWebsite
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:10.085] Server  ERROR    ⨯ ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx:2:1
+Module not found: Can't resolve '@/public/AndroidInfotainmentSystem.jpeg'
+  1 | 'use client';
+> 2 | import AndroidInfotainmentSystem from '@/public/AndroidInfotainmentSystem.jpeg';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | import { useState } from 'react';
+  5 | import { ChevronLeft, ChevronRight } from 'lucide-react';
+
+Import map: aliased to relative './public/AndroidInfotainmentSystem.jpeg' inside of [project]/Desktop/ThorsWebsite
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:10.086] Server  ERROR    ⨯ ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx:2:1
+Module not found: Can't resolve '@/public/AndroidInfotainmentSystem.jpeg'
+  1 | 'use client';
+> 2 | import AndroidInfotainmentSystem from '@/public/AndroidInfotainmentSystem.jpeg';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | import { useState } from 'react';
+  5 | import { ChevronLeft, ChevronRight } from 'lucide-react';
+
+Import map: aliased to relative './public/AndroidInfotainmentSystem.jpeg' inside of [project]/Desktop/ThorsWebsite
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:10.088] Server  ERROR    ⨯ ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx:2:1
+Module not found: Can't resolve '@/public/AndroidInfotainmentSystem.jpeg'
+  1 | 'use client';
+> 2 | import AndroidInfotainmentSystem from '@/public/AndroidInfotainmentSystem.jpeg';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | import { useState } from 'react';
+  5 | import { ChevronLeft, ChevronRight } from 'lucide-react';
+
+Import map: aliased to relative './public/AndroidInfotainmentSystem.jpeg' inside of [project]/Desktop/ThorsWebsite
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:10.089] Server  ERROR    ⨯ ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx:2:1
+Module not found: Can't resolve '@/public/AndroidInfotainmentSystem.jpeg'
+  1 | 'use client';
+> 2 | import AndroidInfotainmentSystem from '@/public/AndroidInfotainmentSystem.jpeg';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | import { useState } from 'react';
+  5 | import { ChevronLeft, ChevronRight } from 'lucide-react';
+
+Import map: aliased to relative './public/AndroidInfotainmentSystem.jpeg' inside of [project]/Desktop/ThorsWebsite
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:10.091] Server  ERROR    ⨯ ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx:2:1
+Module not found: Can't resolve '@/public/AndroidInfotainmentSystem.jpeg'
+  1 | 'use client';
+> 2 | import AndroidInfotainmentSystem from '@/public/AndroidInfotainmentSystem.jpeg';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | import { useState } from 'react';
+  5 | import { ChevronLeft, ChevronRight } from 'lucide-react';
+
+Import map: aliased to relative './public/AndroidInfotainmentSystem.jpeg' inside of [project]/Desktop/ThorsWebsite
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:10.093] Server  ERROR    ⨯ ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx:2:1
+Module not found: Can't resolve '@/public/AndroidInfotainmentSystem.jpeg'
+  1 | 'use client';
+> 2 | import AndroidInfotainmentSystem from '@/public/AndroidInfotainmentSystem.jpeg';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | import { useState } from 'react';
+  5 | import { ChevronLeft, ChevronRight } from 'lucide-react';
+
+Import map: aliased to relative './public/AndroidInfotainmentSystem.jpeg' inside of [project]/Desktop/ThorsWebsite
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:10.094] Server  ERROR    ⨯ ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx:2:1
+Module not found: Can't resolve '@/public/AndroidInfotainmentSystem.jpeg'
+  1 | 'use client';
+> 2 | import AndroidInfotainmentSystem from '@/public/AndroidInfotainmentSystem.jpeg';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | import { useState } from 'react';
+  5 | import { ChevronLeft, ChevronRight } from 'lucide-react';
+
+Import map: aliased to relative './public/AndroidInfotainmentSystem.jpeg' inside of [project]/Desktop/ThorsWebsite
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:10.096] Server  ERROR    ⨯ ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx:2:1
+Module not found: Can't resolve '@/public/AndroidInfotainmentSystem.jpeg'
+  1 | 'use client';
+> 2 | import AndroidInfotainmentSystem from '@/public/AndroidInfotainmentSystem.jpeg';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | import { useState } from 'react';
+  5 | import { ChevronLeft, ChevronRight } from 'lucide-react';
+
+Import map: aliased to relative './public/AndroidInfotainmentSystem.jpeg' inside of [project]/Desktop/ThorsWebsite
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:10.098] Server  ERROR    ⨯ ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx:2:1
+Module not found: Can't resolve '@/public/AndroidInfotainmentSystem.jpeg'
+  1 | 'use client';
+> 2 | import AndroidInfotainmentSystem from '@/public/AndroidInfotainmentSystem.jpeg';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | import { useState } from 'react';
+  5 | import { ChevronLeft, ChevronRight } from 'lucide-react';
+
+Import map: aliased to relative './public/AndroidInfotainmentSystem.jpeg' inside of [project]/Desktop/ThorsWebsite
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:10.099] Server  ERROR    ⨯ ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx:2:1
+Module not found: Can't resolve '@/public/AndroidInfotainmentSystem.jpeg'
+  1 | 'use client';
+> 2 | import AndroidInfotainmentSystem from '@/public/AndroidInfotainmentSystem.jpeg';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | import { useState } from 'react';
+  5 | import { ChevronLeft, ChevronRight } from 'lucide-react';
+
+Import map: aliased to relative './public/AndroidInfotainmentSystem.jpeg' inside of [project]/Desktop/ThorsWebsite
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:10.100] Server  ERROR    ⨯ ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx:2:1
+Module not found: Can't resolve '@/public/AndroidInfotainmentSystem.jpeg'
+  1 | 'use client';
+> 2 | import AndroidInfotainmentSystem from '@/public/AndroidInfotainmentSystem.jpeg';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | import { useState } from 'react';
+  5 | import { ChevronLeft, ChevronRight } from 'lucide-react';
+
+Import map: aliased to relative './public/AndroidInfotainmentSystem.jpeg' inside of [project]/Desktop/ThorsWebsite
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:10.102] Server  ERROR    ⨯ ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx:2:1
+Module not found: Can't resolve '@/public/AndroidInfotainmentSystem.jpeg'
+  1 | 'use client';
+> 2 | import AndroidInfotainmentSystem from '@/public/AndroidInfotainmentSystem.jpeg';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | import { useState } from 'react';
+  5 | import { ChevronLeft, ChevronRight } from 'lucide-react';
+
+Import map: aliased to relative './public/AndroidInfotainmentSystem.jpeg' inside of [project]/Desktop/ThorsWebsite
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:10.103] Server  ERROR    ⨯ ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx:2:1
+Module not found: Can't resolve '@/public/AndroidInfotainmentSystem.jpeg'
+  1 | 'use client';
+> 2 | import AndroidInfotainmentSystem from '@/public/AndroidInfotainmentSystem.jpeg';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | import { useState } from 'react';
+  5 | import { ChevronLeft, ChevronRight } from 'lucide-react';
+
+Import map: aliased to relative './public/AndroidInfotainmentSystem.jpeg' inside of [project]/Desktop/ThorsWebsite
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:10.104] Server  ERROR    ⨯ ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx:2:1
+Module not found: Can't resolve '@/public/AndroidInfotainmentSystem.jpeg'
+  1 | 'use client';
+> 2 | import AndroidInfotainmentSystem from '@/public/AndroidInfotainmentSystem.jpeg';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | import { useState } from 'react';
+  5 | import { ChevronLeft, ChevronRight } from 'lucide-react';
+
+Import map: aliased to relative './public/AndroidInfotainmentSystem.jpeg' inside of [project]/Desktop/ThorsWebsite
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:10.105] Server  ERROR    ⨯ ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx:2:1
+Module not found: Can't resolve '@/public/AndroidInfotainmentSystem.jpeg'
+  1 | 'use client';
+> 2 | import AndroidInfotainmentSystem from '@/public/AndroidInfotainmentSystem.jpeg';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | import { useState } from 'react';
+  5 | import { ChevronLeft, ChevronRight } from 'lucide-react';
+
+Import map: aliased to relative './public/AndroidInfotainmentSystem.jpeg' inside of [project]/Desktop/ThorsWebsite
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:10.107] Server  ERROR    ⨯ ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx:2:1
+Module not found: Can't resolve '@/public/AndroidInfotainmentSystem.jpeg'
+  1 | 'use client';
+> 2 | import AndroidInfotainmentSystem from '@/public/AndroidInfotainmentSystem.jpeg';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | import { useState } from 'react';
+  5 | import { ChevronLeft, ChevronRight } from 'lucide-react';
+
+Import map: aliased to relative './public/AndroidInfotainmentSystem.jpeg' inside of [project]/Desktop/ThorsWebsite
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:10.108] Server  ERROR    ⨯ ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx:2:1
+Module not found: Can't resolve '@/public/AndroidInfotainmentSystem.jpeg'
+  1 | 'use client';
+> 2 | import AndroidInfotainmentSystem from '@/public/AndroidInfotainmentSystem.jpeg';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | import { useState } from 'react';
+  5 | import { ChevronLeft, ChevronRight } from 'lucide-react';
+
+Import map: aliased to relative './public/AndroidInfotainmentSystem.jpeg' inside of [project]/Desktop/ThorsWebsite
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:10.109] Server  ERROR    ⨯ ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx:2:1
+Module not found: Can't resolve '@/public/AndroidInfotainmentSystem.jpeg'
+  1 | 'use client';
+> 2 | import AndroidInfotainmentSystem from '@/public/AndroidInfotainmentSystem.jpeg';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | import { useState } from 'react';
+  5 | import { ChevronLeft, ChevronRight } from 'lucide-react';
+
+Import map: aliased to relative './public/AndroidInfotainmentSystem.jpeg' inside of [project]/Desktop/ThorsWebsite
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:10.110] Server  ERROR    ⨯ ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx:2:1
+Module not found: Can't resolve '@/public/AndroidInfotainmentSystem.jpeg'
+  1 | 'use client';
+> 2 | import AndroidInfotainmentSystem from '@/public/AndroidInfotainmentSystem.jpeg';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | import { useState } from 'react';
+  5 | import { ChevronLeft, ChevronRight } from 'lucide-react';
+
+Import map: aliased to relative './public/AndroidInfotainmentSystem.jpeg' inside of [project]/Desktop/ThorsWebsite
+
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:10.111] Server  LOG      ✓ Compiled in 160ms
+[00:11:11.157] Browser ERROR   ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx:2:1
+Module not found: Can't resolve '@/public/AndroidInfotainmentSystem.jpeg'
+  1 | 'use client';
+> 2 | import AndroidInfotainmentSystem from '@/public/AndroidInfotainmentSystem.jpeg';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | import { useState } from 'react';
+  5 | import { ChevronLeft, ChevronRight } from 'lucide-react';
+
+Import map: aliased to relative './public/AndroidInfotainmentSystem.jpeg' inside of [project]/Desktop/ThorsWebsite
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:11:11.157] Browser ERROR   ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx:2:1
+Module not found: Can't resolve '@/public/AndroidInfotainmentSystem.jpeg'
+  1 | 'use client';
+> 2 | import AndroidInfotainmentSystem from '@/public/AndroidInfotainmentSystem.jpeg';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | import { useState } from 'react';
+  5 | import { ChevronLeft, ChevronRight } from 'lucide-react';
+
+Import map: aliased to relative './public/AndroidInfotainmentSystem.jpeg' inside of [project]/Desktop/ThorsWebsite
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:11:11.157] Browser ERROR   ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx:2:1
+Module not found: Can't resolve '@/public/AndroidInfotainmentSystem.jpeg'
+  1 | 'use client';
+> 2 | import AndroidInfotainmentSystem from '@/public/AndroidInfotainmentSystem.jpeg';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | import { useState } from 'react';
+  5 | import { ChevronLeft, ChevronRight } from 'lucide-react';
+
+Import map: aliased to relative './public/AndroidInfotainmentSystem.jpeg' inside of [project]/Desktop/ThorsWebsite
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:11:11.157] Browser ERROR   ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx:2:1
+Module not found: Can't resolve '@/public/AndroidInfotainmentSystem.jpeg'
+  1 | 'use client';
+> 2 | import AndroidInfotainmentSystem from '@/public/AndroidInfotainmentSystem.jpeg';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | import { useState } from 'react';
+  5 | import { ChevronLeft, ChevronRight } from 'lucide-react';
+
+Import map: aliased to relative './public/AndroidInfotainmentSystem.jpeg' inside of [project]/Desktop/ThorsWebsite
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:11:11.157] Browser ERROR   ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx:2:1
+Module not found: Can't resolve '@/public/AndroidInfotainmentSystem.jpeg'
+  1 | 'use client';
+> 2 | import AndroidInfotainmentSystem from '@/public/AndroidInfotainmentSystem.jpeg';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | import { useState } from 'react';
+  5 | import { ChevronLeft, ChevronRight } from 'lucide-react';
+
+Import map: aliased to relative './public/AndroidInfotainmentSystem.jpeg' inside of [project]/Desktop/ThorsWebsite
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:11:11.157] Browser ERROR   ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx:2:1
+Module not found: Can't resolve '@/public/AndroidInfotainmentSystem.jpeg'
+  1 | 'use client';
+> 2 | import AndroidInfotainmentSystem from '@/public/AndroidInfotainmentSystem.jpeg';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | import { useState } from 'react';
+  5 | import { ChevronLeft, ChevronRight } from 'lucide-react';
+
+Import map: aliased to relative './public/AndroidInfotainmentSystem.jpeg' inside of [project]/Desktop/ThorsWebsite
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:11:12.422] Browser ERROR   ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx:2:1
+Module not found: Can't resolve '@/public/AndroidInfotainmentSystem.jpeg'
+  1 | 'use client';
+> 2 | import AndroidInfotainmentSystem from '@/public/AndroidInfotainmentSystem.jpeg';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | import { useState } from 'react';
+  5 | import { ChevronLeft, ChevronRight } from 'lucide-react';
+
+Import map: aliased to relative './public/AndroidInfotainmentSystem.jpeg' inside of [project]/Desktop/ThorsWebsite
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:11:12.422] Browser ERROR   ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx:2:1
+Module not found: Can't resolve '@/public/AndroidInfotainmentSystem.jpeg'
+  1 | 'use client';
+> 2 | import AndroidInfotainmentSystem from '@/public/AndroidInfotainmentSystem.jpeg';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | import { useState } from 'react';
+  5 | import { ChevronLeft, ChevronRight } from 'lucide-react';
+
+Import map: aliased to relative './public/AndroidInfotainmentSystem.jpeg' inside of [project]/Desktop/ThorsWebsite
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component Browser]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/ThorsWebsite/components/sections/products-carousel-section.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Client Component SSR]
+    ./Desktop/ThorsWebsite/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:11:28.666] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:12:09.496] Server  LOG      ✓ Compiled in 50ms
+[00:14:20.054] Server  LOG      ✓ Compiled in 50ms
+[00:15:58.551] Server  LOG      ✓ Compiled in 57ms
+[00:16:02.600] Server  LOG      ✓ Compiled in 740ms
+[00:17:59.380] Server  LOG      ✓ Compiled in 329ms
+[00:22:03.245] Server  LOG      ✓ Compiled in 59ms
+[00:22:09.606] Server  LOG      ✓ Compiled in 156ms
+[00:23:39.021] Server  LOG      ✓ Compiled in 136ms
+[00:24:30.405] Server  LOG      ✓ Compiled in 51ms
+[00:26:51.175] Server  LOG      ✓ Compiled in 49ms
+[00:30:18.543] Server  LOG      ✓ Compiled in 128ms
+[00:30:32.760] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:30:32.835] Server  LOG      ✓ Compiled in 0ms
+[00:30:32.876] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:30:32.900] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:30:32.927] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:30:32.953] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:30:32.975] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:30:43.434] Server  LOG      ✓ Compiled in 48ms
+[00:30:47.283] Server  LOG      ✓ Compiled in 43ms
+[00:30:51.614] Server  LOG      ✓ Compiled in 132ms
+[00:30:59.266] Server  LOG      ✓ Compiled in 39ms
+[00:31:54.064] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:31:54.300] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/catalog color: rgb(120, 120, 120) color: inherit {"dp":"/catalog","o":"http://localhost:3000/catalog","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770037658243}
+[00:32:09.529] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:32:09.676] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770037673619}
+[00:32:44.780] Server  LOG      ✓ Compiled in 58ms
+[00:32:46.918] Server  LOG      ✓ Compiled in 56ms
+[00:32:55.575] Server  LOG      ✓ Compiled in 171ms
+[00:33:01.284] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:33:01.438] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/catalog color: rgb(120, 120, 120) color: inherit {"dp":"/catalog","o":"http://localhost:3000/catalog","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770037725385}
+[00:33:03.616] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:33:03.811] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770037727749}
+[00:33:18.129] Server  LOG      ✓ Compiled in 56ms
+[00:33:51.827] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:33:52.230] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:33:52.387] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/catalog color: rgb(120, 120, 120) color: inherit {"dp":"/catalog","o":"http://localhost:3000/catalog","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770037776337}
+[00:33:54.689] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:33:55.090] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:33:55.247] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:33:55.247] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:33:55.247] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#vision color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#vision","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770037779196}
+[00:36:52.734] Server  LOG      ✓ Compiled in 148ms
+[00:36:53.403] Server  LOG      ✓ Compiled in 65ms
+[00:36:56.879] Server  LOG      ✓ Compiled in 49ms
+[00:37:02.981] Server  LOG      ✓ Compiled in 55ms
+[00:42:53.862] Server  LOG      ✓ Compiled in 116ms
+[00:42:54.974] Browser ERROR   uncaughtError: TypeError: Image constructor: 'new' is required
+[00:43:24.493] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:43:25.262] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:43:26.030] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:43:26.030] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:43:26.030] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#vision color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#vision","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770038349506}
+[00:43:26.030] Browser WARN    Image with src "http://localhost:3000/_next/static/media/ThorsTextLogoUpscaled.5ce256bd.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:43:36.159] Browser WARN    Image with src "/_next/static/media/ThorsTextLogoUpscaled.5ce256bd.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:43:59.482] Server  LOG      ✓ Compiled in 54ms
+[00:44:08.464] Server  LOG      ✓ Compiled in 54ms
+[00:44:41.023] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:44:41.950] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:44:42.133] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/catalog color: rgb(120, 120, 120) color: inherit {"dp":"/catalog","o":"http://localhost:3000/catalog","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770038426095}
+[00:44:44.927] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:44:45.051] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#hero color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#hero","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770038429014}
+[00:44:46.912] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:44:47.466] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:44:49.452] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:44:51.443] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:44:51.596] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/catalog color: rgb(120, 120, 120) color: inherit {"dp":"/catalog","o":"http://localhost:3000/catalog","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770038435560}
+[00:45:18.772] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:45:18.899] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#hero color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#hero","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770038462862}

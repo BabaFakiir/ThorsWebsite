@@ -20,6 +20,34 @@ export default function Home() {
     { id: 'contact', component: ContactSection },
   ];
 
+  // Sync section with URL hash (for header nav: About Us -> #vision, Contact -> #contact)
+  useEffect(() => {
+    const hashToIndex = (hash: string) => {
+      const map: Record<string, number> = {
+        '#hero': 0,
+        '#products': 1,
+        '#vision': 2,
+        '#contact': 3,
+      };
+      return map[hash] ?? 0;
+    };
+    const syncFromHash = () => {
+      const hash = window.location.hash || '#hero';
+      setCurrentSection(hashToIndex(hash));
+    };
+    syncFromHash();
+    window.addEventListener('hashchange', syncFromHash);
+    return () => window.removeEventListener('hashchange', syncFromHash);
+  }, []);
+
+  // Update URL hash when section changes (e.g. via wheel scroll)
+  useEffect(() => {
+    const id = sections[currentSection]?.id;
+    if (id && window.location.hash !== `#${id}`) {
+      window.history.replaceState(null, '', `#${id}`);
+    }
+  }, [currentSection, sections]);
+
   useEffect(() => {
     const handleWheel = (e: WheelEvent) => {
       if (isScrolling) {
@@ -69,6 +97,7 @@ export default function Home() {
           return (
             <div
               key={section.id}
+              id={section.id}
               className={`absolute inset-0 w-full h-screen transition-all duration-1000 ease-in-out ${
                 isActive ? 'opacity-100 scale-100' : 'opacity-0 scale-95 pointer-events-none'
               }`}

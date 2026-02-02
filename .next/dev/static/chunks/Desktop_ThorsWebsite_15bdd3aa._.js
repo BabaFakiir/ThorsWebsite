@@ -308,33 +308,15 @@ function HeroSection() {
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ThorsWebsite$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "flex flex-col sm:flex-row gap-4 items-center justify-center mt-12 md:mt-16",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ThorsWebsite$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "relative w-full sm:w-auto",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ThorsWebsite$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                                    type: "text",
-                                    placeholder: "Search our collection...",
-                                    className: "px-6 py-3 md:py-4 bg-black/30 backdrop-blur-md border border-accent/30 rounded-full text-foreground placeholder-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent w-full sm:w-80 transition-all"
-                                }, void 0, false, {
-                                    fileName: "[project]/Desktop/ThorsWebsite/components/sections/hero-section.tsx",
-                                    lineNumber: 32,
-                                    columnNumber: 13
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "[project]/Desktop/ThorsWebsite/components/sections/hero-section.tsx",
-                                lineNumber: 31,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ThorsWebsite$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                className: "px-8 py-3 md:py-4 bg-accent text-accent-foreground rounded-full font-semibold hover:bg-opacity-90 transition-all whitespace-nowrap shadow-lg",
-                                children: "Explore Collection"
-                            }, void 0, false, {
-                                fileName: "[project]/Desktop/ThorsWebsite/components/sections/hero-section.tsx",
-                                lineNumber: 38,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ThorsWebsite$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            className: "px-8 py-3 md:py-4 bg-accent text-accent-foreground rounded-full font-semibold hover:bg-opacity-90 transition-all whitespace-nowrap shadow-lg",
+                            children: "Explore Collection"
+                        }, void 0, false, {
+                            fileName: "[project]/Desktop/ThorsWebsite/components/sections/hero-section.tsx",
+                            lineNumber: 31,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
                         fileName: "[project]/Desktop/ThorsWebsite/components/sections/hero-section.tsx",
                         lineNumber: 30,
                         columnNumber: 9
@@ -353,17 +335,17 @@ function HeroSection() {
                                 d: "M19 14l-7 7m0 0l-7-7m7 7V3"
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/ThorsWebsite/components/sections/hero-section.tsx",
-                                lineNumber: 46,
+                                lineNumber: 39,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/Desktop/ThorsWebsite/components/sections/hero-section.tsx",
-                            lineNumber: 45,
+                            lineNumber: 38,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/Desktop/ThorsWebsite/components/sections/hero-section.tsx",
-                        lineNumber: 44,
+                        lineNumber: 37,
                         columnNumber: 9
                     }, this)
                 ]

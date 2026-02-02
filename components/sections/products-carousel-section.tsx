@@ -1,6 +1,11 @@
 'use client';
+import AndroidInfotainmentSystem from '@/public/android.jpeg';
+import ThreeSixtyViewCamera from '@/public/360Camera.jpeg';
+import Dashcam from '@/public/Dashcam.jpeg';
+import CarGPSTracker from '@/public/CarGPSTracker.jpeg';
 
 import { useState } from 'react';
+import Link from 'next/link';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 interface Product {
@@ -12,23 +17,23 @@ interface Product {
 const products: Product[] = [
   {
     id: 1,
-    title: 'Premium Alloy Wheels',
-    image: 'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800&q=80',
+    title: 'Android Infotainment System',
+    image: AndroidInfotainmentSystem.src,
   },
   {
     id: 2,
-    title: 'Carbon Fiber Body Kit',
-    image: 'https://images.unsplash.com/photo-1559163615-cd4628902d4a?w=800&q=80',
+    title: '360 View Camera',
+    image: ThreeSixtyViewCamera.src,
   },
   {
     id: 3,
-    title: 'Performance Exhaust System',
-    image: 'https://images.unsplash.com/photo-1489824904134-891ab64532f1?w=800&q=80',
+    title: 'Dashcam',
+    image: Dashcam.src,
   },
   {
     id: 4,
-    title: 'Advanced LED Lighting',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
+    title: 'GPS Tracker',
+    image: CarGPSTracker.src,
   },
 ];
 
@@ -74,9 +79,6 @@ export default function ProductsCarouselSection() {
             <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight">
               {currentProduct.title}
             </h2>
-            <p className="text-muted-foreground text-base md:text-lg">
-              Product {currentProductIndex + 1} of {products.length}
-            </p>
           </div>
 
           {/* Carousel Dots */}
@@ -96,9 +98,12 @@ export default function ProductsCarouselSection() {
           </div>
 
           {/* CTA Button */}
-          <button className="px-8 py-3 md:py-4 bg-accent text-accent-foreground rounded-full font-semibold hover:bg-opacity-90 transition-all mt-4 md:mt-8">
-            View Details
-          </button>
+          <Link
+            href="/catalog"
+            className="inline-block px-8 py-3 md:py-4 bg-accent text-accent-foreground rounded-full font-semibold hover:bg-opacity-90 transition-all mt-4 md:mt-8"
+          >
+            View Catalog
+          </Link>
         </div>
 
         {/* Right Arrow */}
