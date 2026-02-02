@@ -1,4 +1,5 @@
 'use client';
+
 import AndroidInfotainmentSystem from '@/public/android.jpeg';
 import ThreeSixtyViewCamera from '@/public/360Camera.jpeg';
 import Dashcam from '@/public/Dashcam.jpeg';
@@ -6,6 +7,7 @@ import CarGPSTracker from '@/public/CarGPSTracker.jpeg';
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 interface Product {
@@ -15,27 +17,14 @@ interface Product {
 }
 
 const products: Product[] = [
-  {
-    id: 1,
-    title: 'Android Infotainment System',
-    image: AndroidInfotainmentSystem.src,
-  },
-  {
-    id: 2,
-    title: '360 View Camera',
-    image: ThreeSixtyViewCamera.src,
-  },
-  {
-    id: 3,
-    title: 'Dashcam',
-    image: Dashcam.src,
-  },
-  {
-    id: 4,
-    title: 'GPS Tracker',
-    image: CarGPSTracker.src,
-  },
+  { id: 1, title: 'Android Infotainment System', image: AndroidInfotainmentSystem.src },
+  { id: 2, title: '360 View Camera', image: ThreeSixtyViewCamera.src },
+  { id: 3, title: 'Dashcam', image: Dashcam.src },
+  { id: 4, title: 'GPS Tracker', image: CarGPSTracker.src },
 ];
+
+const CARD_WIDTH = 880;
+const CARD_GAP = 40;
 
 export default function ProductsCarouselSection() {
   const [currentProductIndex, setCurrentProductIndex] = useState(0);
@@ -48,78 +37,103 @@ export default function ProductsCarouselSection() {
     setCurrentProductIndex((prev) => (prev === products.length - 1 ? 0 : prev + 1));
   };
 
-  const currentProduct = products[currentProductIndex];
+  // Center the active card: track is flexbox-centered, so shift by (track center - card center)
+  const trackWidth = products.length * CARD_WIDTH + (products.length - 1) * CARD_GAP;
+  const cardCenterFromLeft = currentProductIndex * (CARD_WIDTH + CARD_GAP) + CARD_WIDTH / 2;
+  const trackOffset = trackWidth / 2 - cardCenterFromLeft;
 
   return (
-    <section className="w-full h-full flex items-center justify-center relative overflow-hidden">
-      {/* Background Image */}
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat transition-all duration-700"
-        style={{
-          backgroundImage: `url(${currentProduct.image})`,
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
+    <section className="w-full h-full flex flex-col relative overflow-hidden bg-black">
+      {/* Section title */}
+      <div className="relative z-10 pt-10 pb-2 text-center">
+        <p className="text-xl md:text-2xl font-bold text-white uppercase tracking-[0.2em]">
+          Top Selling Products
+        </p>
       </div>
 
-      {/* Content */}
-      <div className="relative z-20 w-full h-full flex items-center justify-between px-4 md:px-12 max-w-7xl mx-auto">
-        {/* Left Arrow */}
+      {/* Carousel */}
+      <div className="relative flex-1 flex items-center justify-center min-h-0 w-full px-14 md:px-20">
+        {/* Left arrow */}
         <button
           onClick={goToPrevious}
-          className="flex-shrink-0 p-3 md:p-4 rounded-full bg-accent/20 hover:bg-accent/40 border border-accent/30 text-accent transition-all hover:scale-110 z-30"
+          className="absolute left-4 md:left-8 z-30 p-2 text-white/90 hover:text-white transition-colors"
           aria-label="Previous product"
         >
-          <ChevronLeft size={28} className="md:w-8 md:h-8" />
+          <ChevronLeft size={48} strokeWidth={1.5} />
         </button>
 
-        {/* Center Content */}
-        <div className="flex-1 flex flex-col items-center justify-center gap-8 md:gap-12 px-8">
-          <div className="text-center space-y-4 md:space-y-6">
-            <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight">
-              {currentProduct.title}
-            </h2>
-          </div>
-
-          {/* Carousel Dots */}
-          <div className="flex gap-3">
-            {products.map((_, index) => (
-              <button
-                key={index}
-                onClick={() => setCurrentProductIndex(index)}
-                className={`w-3 h-3 rounded-full transition-all ${
-                  index === currentProductIndex
-                    ? 'bg-accent w-8'
-                    : 'bg-accent/40 hover:bg-accent/60'
-                }`}
-                aria-label={`Go to product ${index + 1}`}
-              />
-            ))}
-          </div>
-
-          {/* CTA Button */}
-          <Link
-            href="/catalog"
-            className="inline-block px-8 py-3 md:py-4 bg-accent text-accent-foreground rounded-full font-semibold hover:bg-opacity-90 transition-all mt-4 md:mt-8"
+        {/* Viewport */}
+        <div
+          className="flex-1 overflow-hidden flex items-center justify-center"
+          style={{ perspective: '1200px' }}
+        >
+          <div
+            className="flex items-center justify-center flex-shrink-0 transition-transform duration-500 ease-out"
+            style={{ transform: `translateX(${trackOffset}px)`, gap: CARD_GAP }}
           >
-            View Catalog
-          </Link>
+            {products.map((product, index) => {
+              const offset = index - currentProductIndex;
+              const isCenter = offset === 0;
+              const scale = isCenter ? 1 : Math.max(0.65, 1 - Math.abs(offset) * 0.18);
+              const rotateY = offset * -14;
+              const z = isCenter ? 30 : 20 - Math.abs(offset);
+              const opacity = isCenter ? 1 : Math.max(0.5, 0.95 - Math.abs(offset) * 0.25);
+
+              return (
+                <div
+                  key={product.id}
+                  className="flex-shrink-0 transition-all duration-500 ease-out cursor-pointer"
+                  style={{
+                    width: CARD_WIDTH,
+                    transform: `scale(${scale}) rotateY(${rotateY}deg)`,
+                    transformStyle: 'preserve-3d',
+                    zIndex: z,
+                    opacity,
+                  }}
+                  onClick={() => !isCenter && setCurrentProductIndex(index)}
+                >
+                  <div
+                    className={`overflow-hidden rounded-lg border-2 bg-neutral-900 shadow-2xl transition-shadow duration-300 ${
+                      isCenter ? 'border-accent/60 shadow-accent/20 shadow-2xl' : 'border-white/10 hover:border-white/20'
+                    }`}
+                  >
+                    <div className="relative aspect-[4/3] w-full">
+                      <Image
+                        src={product.image}
+                        alt={product.title}
+                        fill
+                        className="object-cover"
+                        sizes="880px"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent" />
+                      <div className="absolute bottom-0 left-0 right-0 p-5 md:p-6">
+                        <h3 className="text-lg md:text-xl font-bold text-white uppercase tracking-wide leading-tight">
+                          {product.title}
+                        </h3>
+                        <Link
+                          href="/catalog"
+                          className="mt-3 inline-flex items-center gap-2 px-5 py-2.5 bg-accent text-accent-foreground font-semibold text-sm uppercase tracking-wider hover:bg-accent/90 transition-colors"
+                          onClick={(e) => e.stopPropagation()}
+                        >
+                          View Details
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
         </div>
 
-        {/* Right Arrow */}
+        {/* Right arrow */}
         <button
           onClick={goToNext}
-          className="flex-shrink-0 p-3 md:p-4 rounded-full bg-accent/20 hover:bg-accent/40 border border-accent/30 text-accent transition-all hover:scale-110 z-30"
+          className="absolute right-4 md:right-8 z-30 p-2 text-white/90 hover:text-white transition-colors"
           aria-label="Next product"
         >
-          <ChevronRight size={28} className="md:w-8 md:h-8" />
+          <ChevronRight size={48} strokeWidth={1.5} />
         </button>
-      </div>
-
-      {/* Product Counter */}
-      <div className="absolute top-8 right-8 z-30 text-right">
-        <p className="text-4xl md:text-5xl font-bold text-accent/30">{String(currentProductIndex + 1).padStart(2, '0')}</p>
-        <p className="text-sm text-muted-foreground mt-1">/ {String(products.length).padStart(2, '0')}</p>
       </div>
     </section>
   );
