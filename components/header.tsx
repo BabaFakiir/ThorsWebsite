@@ -31,7 +31,7 @@ export default function Header() {
           <div className="hidden md:flex items-center gap-8 text-sm text-muted-foreground">
             <div className="flex items-center gap-2">
               <span className="text-accent">📞</span>
-              <span>+1-800-THORS-01</span>
+              <span>+91 92664-42229</span>
             </div>
             <div className="flex items-center gap-2">
               <span className="text-accent">✉️</span>

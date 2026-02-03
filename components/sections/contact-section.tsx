@@ -69,8 +69,8 @@ export default function ContactSection() {
                 {
                   icon: Phone,
                   label: 'Phone',
-                  value: '+1-800-THORS-01',
-                  href: 'tel:+18008467701',
+                  value: '+91 92664-42229',
+                  href: 'tel:+91 92664-42229',
                 },
                 {
                   icon: Mail,
@@ -81,8 +81,8 @@ export default function ContactSection() {
                 {
                   icon: MapPin,
                   label: 'Address',
-                  value: '123 Motor Lane, Detroit, MI 48201',
-                  href: '#',
+                  value: 'Jagan Lamps Ltd, Piao Manihari Road, Kundli, Haryana, India 131030',
+                  href: 'https://maps.app.goo.gl/cQB7LEkNauUvvE2D7?g_st=iw',
                 },
               ].map((item, index) => {
                 const Icon = item.icon;
