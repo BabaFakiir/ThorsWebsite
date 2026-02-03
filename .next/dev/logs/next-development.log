@@ -1,95 +1,635 @@
-[00:00:01.508] Server  LOG      ✓ Ready in 1012ms
-[00:00:10.036] Server  LOG      ○ Compiling / ...
-[00:00:10.607] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+[00:00:01.296] Server  LOG      ✓ Ready in 809ms
+[00:00:09.766] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:00:11.162] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:11.396] Browser WARN    Image with src "http://localhost:3000/_next/static/media/ThorsTextLogoUpscaled.5ce256bd.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:11.509] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:11.509] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:11.509] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#hero color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#hero","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770040883387}
-[00:00:34.557] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+[00:00:10.509] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:10.803] Browser WARN    Image with src "http://localhost:3000/_next/static/media/ThorsTextLogoUpscaled.5ce256bd.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:10.803] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:10.803] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/catalog","route":"/catalog"}
+[00:00:10.803] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/catalog color: rgb(120, 120, 120) color: inherit {"dp":"/catalog","o":"http://localhost:3000/catalog","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770041756999}
+[00:00:12.728] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:00:34.734] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/catalog color: rgb(120, 120, 120) color: inherit {"dp":"/catalog","o":"http://localhost:3000/catalog","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770040906613}
-[00:00:38.022] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+[00:02:31.769] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:00:38.170] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#hero color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#hero","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770040910044}
-[00:01:05.821] Server  LOG      ✓ Compiled in 83ms
-[00:01:08.563] Server  LOG      ✓ Compiled in 60ms
-[00:01:50.116] Server  LOG      ✓ Compiled in 53ms
-[00:02:01.237] Server  LOG      ✓ Compiled in 54ms
-[00:04:11.838] Server  LOG      ✓ Compiled in 73ms
-[00:04:19.008] Server  LOG      ✓ Compiled in 78ms
-[00:06:26.776] Server  LOG      ✓ Compiled in 67ms
-[00:06:48.888] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+[00:03:40.027] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:06:49.303] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:06:49.702] Browser WARN    Image with src "http://localhost:3000/_next/static/media/ThorsTextLogoUpscaled.5ce256bd.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:06:49.702] Browser WARN    Image with src "http://localhost:3000/_next/static/media/CarGPSTracker.a9cf4324.jpeg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:06:49.702] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:06:49.702] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:06:49.702] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#products color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#products","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770041281555}
-[00:06:49.702] Browser WARN    Image with src "http://localhost:3000/_next/static/media/Dashcam.8e8a5ab1.jpeg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:06:49.702] Browser WARN    Image with src "http://localhost:3000/_next/static/media/android.50fadfe5.jpeg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:06:49.946] Browser WARN    Image with src "http://localhost:3000/_next/static/media/360Camera.10f83f44.jpeg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:08:45.457] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+[00:03:40.786] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. SW Control
+[00:05:29.210] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:08:45.630] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/catalog color: rgb(120, 120, 120) color: inherit {"dp":"/catalog","o":"http://localhost:3000/catalog","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770041397514}
-[00:08:47.499] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+[00:05:29.862] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the top-level render call using <dl>. 
+[00:05:32.062] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:08:47.652] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#hero color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#hero","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770041399529}
-[00:09:18.355] Server  LOG      ✓ Compiled in 70ms
-[00:09:19.373] Browser ERROR   uncaughtError: ReferenceError: containerRef is not defined
-[00:09:21.482] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:09:21.510] Server  LOG      ✓ Compiled in 59ms
-[00:09:21.730] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+[00:05:34.415] Server  LOG      ✓ Compiled in 62ms
+[00:05:34.735] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:09:21.881] Server  ERROR    ⨯ ReferenceError: containerRef is not defined
-[00:09:21.893] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+[00:05:37.586] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:09:22.450] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:09:23.076] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:09:23.076] Browser ERROR   uncaughtError: ReferenceError: containerRef is not defined
-[00:09:23.216] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+[00:05:39.878] Server  LOG      ✓ Compiled in 55ms
+[00:05:40.252] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:09:23.219] Server  LOG      ✓ Compiled in 59ms
-[00:09:23.323] Server  ERROR    ⨯ ReferenceError: trackOffset is not defined
-[00:09:23.339] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+[00:05:42.635] Server  LOG      ✓ Compiled in 56ms
+[00:05:43.060] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:09:23.714] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:09:24.565] Browser ERROR   uncaughtError: ReferenceError: trackOffset is not defined
-[00:09:46.441] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:09:46.624] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+[00:05:46.045] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:09:46.628] Server  LOG      ✓ Compiled in 64ms
-[00:09:47.234] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:09:48.094] Browser WARN    Image with src "http://localhost:3000/_next/static/media/ThorsTextLogoUpscaled.5ce256bd.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:09:48.094] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:09:48.094] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:09:48.094] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#products color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#products","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770041459367}
-[00:09:48.094] Browser WARN    Image with src "http://localhost:3000/_next/static/media/CarGPSTracker.a9cf4324.jpeg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:09:48.094] Browser WARN    Image with src "http://localhost:3000/_next/static/media/android.50fadfe5.jpeg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:09:48.094] Browser WARN    Image with src "http://localhost:3000/_next/static/media/Dashcam.8e8a5ab1.jpeg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:09:48.094] Browser WARN    Image with src "http://localhost:3000/_next/static/media/360Camera.10f83f44.jpeg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:09:49.216] Server  LOG      ✓ Compiled in 87ms
-[00:09:51.842] Server  LOG      ✓ Compiled in 46ms
-[00:10:09.371] Browser WARN    Image with src "/_next/static/media/ThorsTextLogoUpscaled.5ce256bd.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:05:48.834] Server  LOG      ✓ Compiled in 47ms
+[00:05:49.110] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:05:51.606] Server  LOG      ✓ Compiled in 51ms
+[00:05:51.835] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:06:00.411] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:06:12.054] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:06:22.511] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:07:25.989] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:07:31.243] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:07:31.403] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#hero color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#hero","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770042197612}
+[00:07:44.874] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[00:07:45.013] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/catalog color: rgb(120, 120, 120) color: inherit {"dp":"/catalog","o":"http://localhost:3000/catalog","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770042211224}
+[15:28:18.150] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[15:28:18.744] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[15:28:19.029] Browser WARN    Image with src "http://localhost:3000/_next/static/media/ThorsTextLogoUpscaled.5ce256bd.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[15:28:19.194] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[15:28:19.194] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[15:28:19.194] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#hero color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#hero","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770097445103}
+[15:29:19.925] Server  LOG      ✓ Compiled in 141ms
+[15:29:20.160] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[15:30:16.555] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[15:30:16.853] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/catalog color: rgb(120, 120, 120) color: inherit {"dp":"/catalog","o":"http://localhost:3000/catalog","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770097562762}
+[15:31:00.438] Server  LOG      ✓ Compiled in 59ms
+[15:31:01.124] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[15:33:02.985] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[15:33:19.246] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[15:34:18.408] Server  LOG      ✓ Compiled in 190ms
+[15:34:18.906] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[15:35:17.865] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[15:36:21.304] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[15:39:29.271] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[15:39:53.388] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[15:55:43.062] Browser ERROR   ./Desktop/ThorsWebsite/lib/catalog-data.ts:190:7
+Parsing ecmascript source code failed
+  188 |           'Water and dust protection certification',
+  189 |           'Shock Proof and Anti Shake',  
+> 190 |       },
+      |       ^
+  191 |     ],
+  192 |   },
+  193 |   {
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./Desktop/ThorsWebsite/lib/catalog-data.ts
+    ./Desktop/ThorsWebsite/app/catalog/page.tsx
+[15:55:43.062] Browser ERROR   ./Desktop/ThorsWebsite/lib/catalog-data.ts:190:7
+Parsing ecmascript source code failed
+  188 |           'Water and dust protection certification',
+  189 |           'Shock Proof and Anti Shake',  
+> 190 |       },
+      |       ^
+  191 |     ],
+  192 |   },
+  193 |   {
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./Desktop/ThorsWebsite/lib/catalog-data.ts
+    ./Desktop/ThorsWebsite/app/catalog/page.tsx
+[15:56:07.820] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[15:56:08.576] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. C-24
+[15:56:47.158] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[15:57:34.172] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[15:58:24.037] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[17:59:57.392] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[18:00:08.213] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[18:02:18.519] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[18:03:51.838] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[18:04:12.891] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[18:06:08.010] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[18:09:34.070] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[18:12:00.518] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[18:13:23.621] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[18:14:54.894] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[18:15:07.564] Server  LOG      ✓ Compiled in 98ms
+[18:15:07.867] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[18:15:33.131] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[18:20:52.041] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[18:21:20.637] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[18:21:28.445] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[18:22:13.504] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[18:23:06.917] Server  LOG      ✓ Compiled in 65ms
+[18:23:07.256] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[18:23:27.169] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[18:23:37.670] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[18:24:16.446] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[18:25:02.304] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[18:25:31.313] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[18:27:40.526] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[18:27:58.520] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[18:30:28.266] Server  LOG      ✓ Compiled in 112ms
+[18:30:30.013] Server  ERROR    ⨯ ReferenceError: ambientLights1 is not defined
+[18:30:30.328] Server  ERROR    ⨯ ReferenceError: ambientLights1 is not defined
+[18:30:32.163] Server  ERROR    ⨯ ReferenceError: ambientLights1 is not defined
+[18:30:32.456] Server  ERROR    ⨯ ReferenceError: ambientLights1 is not defined
+[18:30:34.831] Browser ERROR   uncaughtError: ReferenceError: ambientLights1 is not defined
+[18:31:24.993] Server  ERROR    ⨯ ReferenceError: ambientLights1 is not defined
+[18:31:25.293] Server  ERROR    ⨯ ReferenceError: ambientLights1 is not defined
+[18:31:27.569] Browser ERROR   uncaughtError: ReferenceError: ambientLights1 is not defined
+[18:32:12.812] Server  ERROR    ⨯ ReferenceError: ambientLights1 is not defined
+[18:32:13.089] Server  ERROR    ⨯ ReferenceError: ambientLights1 is not defined
+[18:32:15.321] Browser ERROR   uncaughtError: ReferenceError: ambientLights1 is not defined
+[18:35:17.831] Server  LOG      ✓ Compiled in 136ms
+[18:35:17.858] Server  WARN     ⚠ ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Server Component:
+    ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+    ./Desktop/ThorsWebsite/lib/catalog-data.ts
+    ./Desktop/ThorsWebsite/app/catalog/page.tsx
+
+
+[18:35:18.072] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[18:35:18.601] Server  WARN     ⚠ ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Server Component:
+    ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+    ./Desktop/ThorsWebsite/lib/catalog-data.ts
+    ./Desktop/ThorsWebsite/app/catalog/page.tsx
+
+
+[18:35:18.640] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[18:35:18.958] Browser WARN    Image with src "http://localhost:3000/_next/static/media/ThorsTextLogoUpscaled.5ce256bd.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[18:35:19.120] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[18:35:19.120] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/catalog","route":"/catalog"}
+[18:35:19.120] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/catalog color: rgb(120, 120, 120) color: inherit {"dp":"/catalog","o":"http://localhost:3000/catalog","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770108665242}
+[18:35:19.120] Browser WARN    Image with src "/_next/static/media/Thors android 9in.79e6964f.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:10:33.681] Server  LOG      ✓ Compiled in 110ms
-[00:12:42.614] Server  LOG      ✓ Compiled in 73ms
-[00:12:54.829] Server  LOG      ✓ Compiled in 56ms
-[00:12:55.282] Browser ERROR   uncaughtError: ReferenceError: containerRef is not defined
-[00:12:56.894] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:12:56.925] Server  LOG      ✓ Compiled in 62ms
-[00:12:57.332] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+[18:39:00.763] Server  WARN     ⚠ ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Server Component:
+    ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+    ./Desktop/ThorsWebsite/lib/catalog-data.ts
+    ./Desktop/ThorsWebsite/app/catalog/page.tsx
+
+
+[18:39:01.729] Server  ERROR    ⨯ ReferenceError: grillLight1 is not defined
+[18:39:02.466] Server  ERROR    ⨯ ReferenceError: grillLight1 is not defined
+[18:39:02.481] Server  WARN     ⚠ ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Server Component:
+    ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+    ./Desktop/ThorsWebsite/lib/catalog-data.ts
+    ./Desktop/ThorsWebsite/app/catalog/page.tsx
+
+
+[18:39:02.536] Server  WARN     ⚠ ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Server Component:
+    ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+    ./Desktop/ThorsWebsite/lib/catalog-data.ts
+    ./Desktop/ThorsWebsite/app/catalog/page.tsx
+
+
+[18:39:02.987] Server  ERROR    ⨯ ReferenceError: grillLight1 is not defined
+[18:39:03.275] Server  ERROR    ⨯ ReferenceError: grillLight1 is not defined
+[18:39:03.281] Server  WARN     ⚠ ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Server Component:
+    ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+    ./Desktop/ThorsWebsite/lib/catalog-data.ts
+    ./Desktop/ThorsWebsite/app/catalog/page.tsx
+
+
+[18:39:03.502] Server  WARN     ⚠ ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Server Component:
+    ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+    ./Desktop/ThorsWebsite/lib/catalog-data.ts
+    ./Desktop/ThorsWebsite/app/catalog/page.tsx
+
+
+[18:39:05.433] Browser ERROR   uncaughtError: ReferenceError: grillLight1 is not defined
+[18:42:30.434] Server  LOG      ✓ Compiled in 83ms
+[18:42:30.455] Server  WARN     ⚠ ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Server Component:
+    ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+    ./Desktop/ThorsWebsite/lib/catalog-data.ts
+    ./Desktop/ThorsWebsite/app/catalog/page.tsx
+
+
+[18:42:30.708] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
 Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
-[00:12:57.880] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:12:58.320] Server  LOG      ✓ Compiled in 59ms
-[00:12:58.643] Browser WARN    Image with src "http://localhost:3000/_next/static/media/ThorsTextLogoUpscaled.5ce256bd.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:12:58.644] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:12:58.644] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:12:58.644] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#products color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#products","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770041650084}
-[00:12:59.013] Server  LOG      ✓ Compiled in 38ms
-[00:13:43.689] Browser WARN    Image with src "/_next/static/media/360Camera.10f83f44.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[18:42:31.241] Server  WARN     ⚠ ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Server Component:
+    ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+    ./Desktop/ThorsWebsite/lib/catalog-data.ts
+    ./Desktop/ThorsWebsite/app/catalog/page.tsx
+
+
+[18:42:31.280] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[18:42:32.308] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[18:42:32.308] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/catalog","route":"/catalog"}
+[18:42:32.308] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/catalog color: rgb(120, 120, 120) color: inherit {"dp":"/catalog","o":"http://localhost:3000/catalog","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770109097561}
+[18:42:32.308] Browser WARN    Image with src "http://localhost:3000/_next/static/media/ThorsTextLogoUpscaled.5ce256bd.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[18:42:32.308] Browser WARN    Image with src "/_next/static/media/Thors android 9in.79e6964f.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:13:43.689] Browser WARN    Image with src "/_next/static/media/android.50fadfe5.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[18:48:06.102] Server  WARN     ⚠ ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Server Component:
+    ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+    ./Desktop/ThorsWebsite/lib/catalog-data.ts
+    ./Desktop/ThorsWebsite/app/catalog/page.tsx
+
+
+[18:48:06.649] Server  ERROR    ⨯ ReferenceError: ledProjector3 is not defined
+[18:48:07.152] Server  ERROR    ⨯ ReferenceError: ledProjector3 is not defined
+[18:48:07.178] Server  WARN     ⚠ ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Server Component:
+    ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+    ./Desktop/ThorsWebsite/lib/catalog-data.ts
+    ./Desktop/ThorsWebsite/app/catalog/page.tsx
+
+
+[18:48:07.618] Server  WARN     ⚠ ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Server Component:
+    ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+    ./Desktop/ThorsWebsite/lib/catalog-data.ts
+    ./Desktop/ThorsWebsite/app/catalog/page.tsx
+
+
+[18:48:08.566] Server  ERROR    ⨯ ReferenceError: ledProjector3 is not defined
+[18:48:08.850] Server  ERROR    ⨯ ReferenceError: ledProjector3 is not defined
+[18:48:08.879] Server  WARN     ⚠ ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Server Component:
+    ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+    ./Desktop/ThorsWebsite/lib/catalog-data.ts
+    ./Desktop/ThorsWebsite/app/catalog/page.tsx
+
+
+[18:48:09.731] Server  WARN     ⚠ ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Server Component:
+    ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+    ./Desktop/ThorsWebsite/lib/catalog-data.ts
+    ./Desktop/ThorsWebsite/app/catalog/page.tsx
+
+
+[18:48:11.675] Browser ERROR   uncaughtError: ReferenceError: ledProjector3 is not defined
+[18:48:38.512] Server  LOG      ✓ Compiled in 100ms
+[18:48:38.527] Server  WARN     ⚠ ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Server Component:
+    ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+    ./Desktop/ThorsWebsite/lib/catalog-data.ts
+    ./Desktop/ThorsWebsite/app/catalog/page.tsx
+
+
+[18:48:38.724] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[18:48:39.215] Server  WARN     ⚠ ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Server Component:
+    ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+    ./Desktop/ThorsWebsite/lib/catalog-data.ts
+    ./Desktop/ThorsWebsite/app/catalog/page.tsx
+
+
+[18:48:39.244] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[18:48:39.559] Browser WARN    Image with src "http://localhost:3000/_next/static/media/ThorsTextLogoUpscaled.5ce256bd.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[18:48:39.559] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[18:48:39.560] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/catalog","route":"/catalog"}
+[18:48:39.560] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/catalog color: rgb(120, 120, 120) color: inherit {"dp":"/catalog","o":"http://localhost:3000/catalog","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770109465651}
+[18:48:39.560] Browser WARN    Image with src "/_next/static/media/Thors android 9in.79e6964f.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[18:55:57.725] Server  WARN     ⚠ ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Server Component:
+    ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+    ./Desktop/ThorsWebsite/lib/catalog-data.ts
+    ./Desktop/ThorsWebsite/app/catalog/page.tsx
+
+
+[18:55:58.020] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[18:56:27.125] Server  WARN     ⚠ ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Server Component:
+    ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+    ./Desktop/ThorsWebsite/lib/catalog-data.ts
+    ./Desktop/ThorsWebsite/app/catalog/page.tsx
+
+
+[18:56:27.359] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[18:57:13.204] Server  WARN     ⚠ ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Server Component:
+    ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+    ./Desktop/ThorsWebsite/lib/catalog-data.ts
+    ./Desktop/ThorsWebsite/app/catalog/page.tsx
+
+
+[18:57:13.431] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[18:59:12.262] Server  LOG      ✓ Compiled in 66ms
+[18:59:12.355] Server  WARN     ⚠ ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Server Component:
+    ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+    ./Desktop/ThorsWebsite/lib/catalog-data.ts
+    ./Desktop/ThorsWebsite/app/catalog/page.tsx
+
+
+[18:59:13.085] Server  ERROR    ⨯ ReferenceError: horn1 is not defined
+[18:59:13.798] Server  ERROR    ⨯ ReferenceError: horn1 is not defined
+[18:59:13.829] Server  WARN     ⚠ ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Server Component:
+    ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+    ./Desktop/ThorsWebsite/lib/catalog-data.ts
+    ./Desktop/ThorsWebsite/app/catalog/page.tsx
+
+
+[18:59:14.152] Server  WARN     ⚠ ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Server Component:
+    ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+    ./Desktop/ThorsWebsite/lib/catalog-data.ts
+    ./Desktop/ThorsWebsite/app/catalog/page.tsx
+
+
+[18:59:15.216] Server  ERROR    ⨯ ReferenceError: horn1 is not defined
+[18:59:15.682] Server  ERROR    ⨯ ReferenceError: horn1 is not defined
+[18:59:15.683] Server  WARN     ⚠ ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Server Component:
+    ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+    ./Desktop/ThorsWebsite/lib/catalog-data.ts
+    ./Desktop/ThorsWebsite/app/catalog/page.tsx
+
+
+[18:59:16.294] Server  WARN     ⚠ ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Server Component:
+    ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+    ./Desktop/ThorsWebsite/lib/catalog-data.ts
+    ./Desktop/ThorsWebsite/app/catalog/page.tsx
+
+
+[18:59:16.708] Server  WARN     ⚠ ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Server Component:
+    ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+    ./Desktop/ThorsWebsite/lib/catalog-data.ts
+    ./Desktop/ThorsWebsite/app/catalog/page.tsx
+
+
+[18:59:17.784] Browser ERROR   uncaughtError: ReferenceError: horn1 is not defined
+[19:06:25.631] Server  LOG      ✓ Compiled in 178ms
+[19:06:25.673] Server  WARN     ⚠ ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Server Component:
+    ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+    ./Desktop/ThorsWebsite/lib/catalog-data.ts
+    ./Desktop/ThorsWebsite/app/catalog/page.tsx
+
+
+[19:06:26.043] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[19:06:26.645] Server  WARN     ⚠ ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Server Component:
+    ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+    ./Desktop/ThorsWebsite/lib/catalog-data.ts
+    ./Desktop/ThorsWebsite/app/catalog/page.tsx
+
+
+[19:06:26.687] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[19:06:27.621] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[19:06:27.621] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/catalog","route":"/catalog"}
+[19:06:27.621] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/catalog color: rgb(120, 120, 120) color: inherit {"dp":"/catalog","o":"http://localhost:3000/catalog","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770110533375}
+[19:06:27.621] Browser WARN    Image with src "http://localhost:3000/_next/static/media/ThorsTextLogoUpscaled.5ce256bd.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[19:06:29.574] Browser WARN    Image with src "/_next/static/media/Thors android 9in.79e6964f.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[19:08:12.899] Server  WARN     ⚠ ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Server Component:
+    ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+    ./Desktop/ThorsWebsite/lib/catalog-data.ts
+    ./Desktop/ThorsWebsite/app/catalog/page.tsx
+
+
+[19:08:13.138] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[19:08:47.044] Server  WARN     ⚠ ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Server Component:
+    ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+    ./Desktop/ThorsWebsite/lib/catalog-data.ts
+    ./Desktop/ThorsWebsite/app/catalog/page.tsx
+
+
+[19:08:47.089] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[19:08:47.615] Server  WARN     ⚠ ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Server Component:
+    ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+    ./Desktop/ThorsWebsite/lib/catalog-data.ts
+    ./Desktop/ThorsWebsite/app/catalog/page.tsx
+
+
+[19:08:47.661] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[19:08:47.815] Browser WARN    Image with src "/_next/static/media/ThorsTextLogoUpscaled.5ce256bd.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[19:08:47.815] Browser WARN    Image with src "http://localhost:3000/_next/static/media/ThorsTextLogoUpscaled.5ce256bd.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[19:08:47.924] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[19:08:47.924] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[19:08:47.924] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#products color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#products","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770110674097}
+[19:08:48.075] Browser WARN    Image with src "/_next/static/media/360Camera.10f83f44.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[19:09:18.009] Server  WARN     ⚠ ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Server Component:
+    ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+    ./Desktop/ThorsWebsite/lib/catalog-data.ts
+    ./Desktop/ThorsWebsite/app/catalog/page.tsx
+
+
+[19:09:18.112] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[19:09:18.351] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/catalog color: rgb(120, 120, 120) color: inherit {"dp":"/catalog","o":"http://localhost:3000/catalog","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770110704529}
+[19:15:21.031] Server  WARN     ⚠ ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Server Component:
+    ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+    ./Desktop/ThorsWebsite/lib/catalog-data.ts
+    ./Desktop/ThorsWebsite/app/catalog/page.tsx
+
+
+[19:15:21.370] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[19:15:50.975] Server  LOG      ✓ Compiled in 446ms
+[19:15:55.135] Server  WARN     ⚠ ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Server Component:
+    ./Desktop/ThorsWebsite/public/Catalog photos/car ambient light 3.avif
+    ./Desktop/ThorsWebsite/lib/catalog-data.ts
+    ./Desktop/ThorsWebsite/app/catalog/page.tsx
+
+
+[19:15:55.506] Server  WARN     ⚠ Unsupported metadata viewport is configured in metadata export in /catalog. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport

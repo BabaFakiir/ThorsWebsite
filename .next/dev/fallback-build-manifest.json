@@ -1,6 +1,31 @@
 {
   "pages": {
-    "/_app": []
+    "/_app": [
+      "static/chunks/0d91b_next_dist_compiled_ad13598b._.js",
+      "static/chunks/0d91b_next_dist_shared_lib_8ca250dd._.js",
+      "static/chunks/0d91b_next_dist_client_f61f8769._.js",
+      "static/chunks/0d91b_next_dist_e15d9f09._.js",
+      "static/chunks/0d91b_next_app_758d9fe0.js",
+      "static/chunks/[next]_entry_page-loader_ts_bec5fd35._.js",
+      "static/chunks/0d91b_react-dom_380276e1._.js",
+      "static/chunks/0d91b_df45c593._.js",
+      "static/chunks/[root-of-the-server]__df1114c5._.js",
+      "static/chunks/Desktop_ThorsWebsite_pages__app_2da965e7._.js",
+      "static/chunks/turbopack-Desktop_ThorsWebsite_pages__app_ff495c8e._.js"
+    ],
+    "/_error": [
+      "static/chunks/0d91b_next_dist_compiled_ad13598b._.js",
+      "static/chunks/0d91b_next_dist_shared_lib_2b4af974._.js",
+      "static/chunks/0d91b_next_dist_client_f61f8769._.js",
+      "static/chunks/0d91b_next_dist_595d6f0c._.js",
+      "static/chunks/0d91b_next_error_7dd751ff.js",
+      "static/chunks/[next]_entry_page-loader_ts_cfb1666e._.js",
+      "static/chunks/0d91b_react-dom_380276e1._.js",
+      "static/chunks/0d91b_df45c593._.js",
+      "static/chunks/[root-of-the-server]__225b00b8._.js",
+      "static/chunks/Desktop_ThorsWebsite_pages__error_2da965e7._.js",
+      "static/chunks/turbopack-Desktop_ThorsWebsite_pages__error_a1bbe132._.js"
+    ]
   },
   "devFiles": [],
   "polyfillFiles": [],

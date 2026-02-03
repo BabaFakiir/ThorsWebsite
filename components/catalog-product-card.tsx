@@ -34,17 +34,28 @@ export function CatalogProductCard({ product }: CatalogProductCardProps) {
         )}
       </CardHeader>
       <CardContent className="pt-0 flex-1">
-        <dl className="space-y-2">
-          {product.specs.map((spec) => (
-            <div
-              key={spec.label}
-              className="flex justify-between gap-4 text-sm border-b border-gray-100 pb-2 last:border-0 last:pb-0"
-            >
-              <dt className="font-medium text-gray-600 shrink-0">{spec.label}</dt>
-              <dd className="text-gray-900 text-right">{spec.value}</dd>
-            </div>
-          ))}
-        </dl>
+        <div
+          className={`grid gap-x-6 text-sm text-gray-900 border border-gray-300 rounded-md px-3 py-2 ${
+            product.specs.length > 7 ? 'grid-cols-2' : 'grid-cols-1'
+          }`}
+        >
+          <ul className="space-y-1.5 list-none p-0 m-0">
+            {product.specs.slice(0, 7).map((spec, index) => (
+              <li key={index} className="leading-snug">
+                {spec}
+              </li>
+            ))}
+          </ul>
+          {product.specs.length > 7 && (
+            <ul className="space-y-1.5 list-none p-0 m-0">
+              {product.specs.slice(7, 14).map((spec, index) => (
+                <li key={index} className="leading-snug">
+                  {spec}
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
       </CardContent>
     </Card>
   );

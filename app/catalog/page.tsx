@@ -11,7 +11,7 @@ export default function CatalogPage() {
 
       <main className="pt-20 pb-16">
         {/* Page header */}
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-6">
           <Link
             href="/"
             className="inline-flex items-center gap-2 text-gray-600 hover:text-[#d4af37] transition-colors mb-8 text-sm font-medium"
@@ -27,13 +27,33 @@ export default function CatalogPage() {
           </p>
         </div>
 
+        {/* Category menu bar - sticky */}
+        <nav
+          className="sticky top-20 z-30 bg-white border-y border-gray-200 shadow-sm"
+          aria-label="Catalog categories"
+        >
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="flex flex-wrap items-center gap-1 py-2">
+              {catalogSections.map((section) => (
+                <a
+                  key={section.id}
+                  href={`#${section.id}`}
+                  className="px-4 py-2.5 text-sm font-medium text-gray-700 hover:text-[#d4af37] hover:bg-gray-50 rounded-md transition-colors whitespace-nowrap"
+                >
+                  {section.title}
+                </a>
+              ))}
+            </div>
+          </div>
+        </nav>
+
         {/* Catalog sections */}
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-20 pt-8">
           {catalogSections.map((section) => (
             <section
               key={section.id}
               id={section.id}
-              className="scroll-mt-24"
+              className="scroll-mt-32"
             >
               <div className="mb-10">
                 <h2 className="text-2xl md:text-3xl font-bold text-gray-900 border-b-2 border-[#d4af37] pb-2 inline-block">
